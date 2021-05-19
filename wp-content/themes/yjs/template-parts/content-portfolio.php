@@ -1,4 +1,19 @@
 <div class="portfolio-page bg-blue pb4">
+  <header class="w-100 bg-blue flex justify-between pa5-l pa4">
+    <h4 class="text-white">Yasmin Jones Sheahan</h4>
+
+    <ul id="header-links" class="flex pl0">
+      <li>
+        <a href="http://localhost:8888/contact">Contact</a>
+      </li>
+      <li>
+        <a href="https://github.com/yjsheahan">Github</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/yasminjs/">LinkedIn</a>
+      </li>
+    </ul>
+  </header>
 
   <div class="portfolio-content ph5-l ph4 w-100 flex justify-between">
 

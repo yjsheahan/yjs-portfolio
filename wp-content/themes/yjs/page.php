@@ -22,7 +22,9 @@ get_header();
 			the_post();
 
       if ( is_page(5) ) {
-        get_template_part( 'template-parts/content-portfolio');
+        get_template_part( 'template-parts/content-portfolio' );
+      } else if ( is_page(14) ) {
+        get_template_part( 'template-parts/portfolio/content-contact' );
       } else {
 			 get_template_part( 'template-parts/content', 'page' );
 

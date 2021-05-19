@@ -26,7 +26,7 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site min-vh-100">
 
-  <header class="w-100 bg-blue flex justify-between pa5-l pa4">
+<!--   <header class="w-100 bg-blue flex justify-between pa5-l pa4">
     <h4 class="text-white">Yasmin Jones Sheahan</h4>
 
     <ul id="header-links" class="flex pl0">
@@ -40,4 +40,4 @@
         <a href="https://www.linkedin.com/in/yasminjs/">LinkedIn</a>
       </li>
     </ul>
-  </header>
+  </header> -->

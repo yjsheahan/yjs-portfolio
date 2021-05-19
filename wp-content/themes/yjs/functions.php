@@ -144,6 +144,7 @@ function yjs_scripts() {
 	wp_style_add_data( 'yjs-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'yjs-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+  wp_enqueue_script( 'yjs-menu', get_template_directory_uri() . '/js/menu.js', array(), _S_VERSION, true );
   wp_enqueue_style( 'yjs-custom', get_template_directory_uri() .
   '/css/custom.css');
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
