@@ -101,7 +101,8 @@ button:hover {
 }
 
 .bg-pink {
-  background-color: rgba(228, 149, 158, 0.1);
+/*  background-color: rgba(228, 149, 158, 0.1);*/
+  background-color: #E6DEDF;
 }
 
 .bg-pink-light-1 {
@@ -153,6 +154,11 @@ header {
   align-items: center;
 }
 
+ul#header-links {
+  position: relative;
+  z-index: 2;
+}
+
 ul#header-links li {
   list-style: none;
   padding-left: 32px;
@@ -160,10 +166,32 @@ ul#header-links li {
 
 .page-id-5 ul#header-links li a {
   color: #FFFFFF !important;
+  transition: text-decoration 1s ease;
 }
 
 .page-id-14 ul#header-links li a {
   color: #1F0812 !important;
+}
+
+/* NAV POPUP */
+div.nav-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100vw;
+}
+
+div.menu-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid 1px #37515F;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
 }
 
 /* FOOTER */
@@ -304,6 +332,11 @@ div.mobile-menu {
   p, a {
     font-size: 12px;
     line-height: 1.25;
+  }
+
+  section#index-grid a#ig {
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   div.contact-container a {
