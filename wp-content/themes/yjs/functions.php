@@ -51,6 +51,7 @@ if ( ! function_exists( 'yjs_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-1' => esc_html__( 'Primary', 'yjs' ),
+        'work-menu' => esc_html__( 'Work Menu', 'yjs' ),
 			)
 		);
 
@@ -180,3 +181,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function register_my_menu() {
+register_nav_menus(
+    array(
+      'work-menu' => __( 'Work Menu' ),
+    )
+  );
+}

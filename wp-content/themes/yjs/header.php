@@ -42,10 +42,15 @@
     </ul>
   </header> -->
 
-  <div class="nav-popup vw-100 vh-100 bg-pink text-pink">
+  <div class="nav-popup vw-100 vh-100 bg-pink text-pink flex flex-column justify-center">
     <div class="menu-circle"></div>
-    <h4>Online Shop</h4>
-    <h4>Pilates with Yasmin</h4>
-    <h4>Cino Payso Records</h4>
-    <h4>Tempo 301</h4>
+    <div class="menu-nav ph4 flex flex-column justify-center">
+      <?php wp_nav_menu( array( 'theme_location' => 'work-menu' ) ); ?>
+    </div>
+    <div class="mobile-menu-nav text-blue flex flex-column tr ph4 vh-40">
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Github</a>
+      <a href="#">LinkedIn</a>
+    </div>
   </div>
